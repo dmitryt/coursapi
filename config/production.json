@@ -1,0 +1,7 @@
+{
+	"database": {
+		"user": "db_coursapi_user",
+		"password": "1",
+		"name": "db_coursapi"
+	}
+}

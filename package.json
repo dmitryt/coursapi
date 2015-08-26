@@ -1,0 +1,23 @@
+{
+  "name": "coursapi",
+  "version": "0.0.0",
+  "description": "REST API with Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Tselinko",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "~0.10.0",
+    "bunyan": "~1.3.4",
+    "extend": "~2.0.0",
+    "intel": "~1.0.0",
+    "mongoose": "~3.8.24",
+    "restify": "~2.8.4",
+    "save": "~0.0.20"
+  },
+  "devDependencies": {
+    "migrate": "~0.2.0"
+  }
+}
