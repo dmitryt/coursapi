@@ -1,9 +1,9 @@
 var mongoose = require('mongoose'),
 	schema = mongoose.Schema({
-		firstName: String,
-		lastName: String,
+		firstname: String,
+		lastname: String,
 		email: String,
-		groupId: {
+		group: {
 	        type: mongoose.Schema.Types.ObjectId,
 	        ref: 'Group'
 	    }

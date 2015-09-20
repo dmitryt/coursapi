@@ -4,7 +4,7 @@ var restify = require('restify'),
 	fs = require('fs'),
 	Logger = require('bunyan'),
 	db = require('./db'),
-	routes = require('./routes'),
+	routes = require('./api/routes'),
 
 	cfgName = {
 		'production': 'production.json'

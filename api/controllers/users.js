@@ -1,6 +1,6 @@
 var JSONStream = require('JSONStream'),
 	mongoose = require('mongoose'),
-	User = mongoose.model('User'),
+	User = require('../models/user'),
 	rest = require('../utils').rest(User);
 
 ['find', 'get', 'create', 'update', 'remove'].forEach(function(key){
