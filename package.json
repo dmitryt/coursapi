@@ -14,7 +14,7 @@
     "extend": "~2.0.0",
     "intel": "~1.0.0",
     "mongoose": "~3.8.24",
-    "restify": "~2.8.4",
+    "restify": "~8.4.0",
     "restify-namespace": "^0.1.1",
     "save": "~0.0.20"
   },
